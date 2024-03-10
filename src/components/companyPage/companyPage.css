@@ -1,0 +1,71 @@
+.companyPage {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.companyHeroImg {
+  width: 100%;
+  max-width: 30%;
+  height: 100%;
+}
+
+.companyHeroImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.companyPageContent {
+  padding: 10% 5%;
+  display: flex;
+  flex-direction: column;
+}
+.greet {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.companyline {
+  font-family: Montserrat;
+  font-size: 5.5rem;
+  font-weight: 700;
+  line-height: normal;
+  border-bottom: 2px solid black;
+  margin-block: 1rem;
+}
+
+.companyPageContent {
+  width: 100%;
+  height: 100%;
+}
+
+.companyPageContent :nth-child(3) {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-block: 1%;
+}
+
+.company_phone img,
+.company_email img,
+.company_address img {
+  -webkit-filter: invert(100%); /* Safari/Chrome */
+  filter: invert(100%);
+}
+
+.company_phone,
+.company_email,
+.company_address {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 3%;
+}
+.companySocialIcon {
+  width: 5%;
+  margin-left: auto;
+}

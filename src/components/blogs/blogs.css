@@ -1,0 +1,90 @@
+/* Set black background for the entire blogs container */
+.combine_cont {
+  width: 100%;
+  overflow-y: scroll;
+  position: relative;
+}
+.blogs_section {
+  background-color: #000;
+  color: #fff;
+  padding: 4% 10%;
+}
+
+/* Style the headings */
+.blog_headings h1 {
+  font-size: 5rem;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.blog_headings p {
+  font-size: 2.7rem;
+  font-family: "Montserrat", sans-serif;
+  line-height: 120%;
+  color: #bbb;
+  font-weight: 400;
+  margin-block: 3%;
+  padding: 10px 0;
+}
+
+.blog_slots {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2%;
+  padding-inline: 3%;
+}
+
+.blog1,
+.blog2,
+.blog3 {
+  position: relative;
+}
+
+.blog1 {
+  grid-row: 1;
+  grid-column: 1 / span 2;
+}
+
+.blog_slots img {
+  width: 100%;
+  height: 100%;
+}
+
+.blog_slots p {
+  position: absolute;
+  top: 5%;
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 5%;
+}
+
+.blog_slots span {
+  position: absolute;
+  top: 30%;
+  z-index: 1;
+  left: 5%;
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: white;
+}
+
+/* FOOTER  */
+
+/* .footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: white;
+  width: 100%;
+}
+
+.footer_content {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer_image img {
+  width: 100%;
+  height: 100%;
+} */

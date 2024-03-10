@@ -1,0 +1,150 @@
+.brandCompanies {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.brandHeadSpinner {
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  overflow: hidden;
+  height: 100%;
+}
+.brandHeadSpinner > div {
+  width: 100%;
+  height: 100%;
+  scale: 2;
+  background: conic-gradient(from 180deg at 50% 50%, #fff 0deg, #000 360deg);
+  animation: screenRotation 10s linear infinite;
+  will-change: transform;
+}
+
+@keyframes screenRotation {
+  0% {
+    transform: rotate(0deg) scale(2);
+  }
+
+  100% {
+    transform: rotate(360deg) scale(2);
+  }
+}
+.brandHeadSpinner p {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  font-size: 1.5rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 10rem;
+  height: 10rem;
+  text-shadow: #000 0px 0px 2px;
+  box-shadow: 0px 0px 10px #fff;
+  border-radius: 10rem;
+  background: linear-gradient(
+    153deg,
+    rgba(255, 255, 255, 10) 0%,
+    rgba(255, 255, 255, 0.5) 100%
+  );
+}
+
+.brandPageImages {
+  width: 100%;
+  height: 100%;
+  padding: 7%;
+}
+
+.brandPageImages .img {
+  width: 90px;
+  height: 90px;
+  margin: 1%;
+  position: absolute;
+  transition: all 0.3s ease;
+
+  &:hover {
+    scale: 1.3;
+  }
+}
+
+.img1 {
+  top: 10%;
+  left: 10%;
+}
+.img2 {
+  top: 12%;
+  left: 30%;
+}
+.img3 {
+  top: 10%;
+  left: 75%;
+}
+.img4 {
+  top: 30%;
+  left: 15%;
+}
+.img5 {
+  top: 30%;
+  left: 35%;
+}
+.img6 {
+  top: 20%;
+  left: 55%;
+}
+.img7 {
+  top: 30%;
+  left: 85%;
+}
+.img8 {
+  top: 45%;
+  left: 8%;
+}
+.img9 {
+  top: 50%;
+  left: 28%;
+}
+.img10 {
+  top: 45%;
+  left: 68%;
+}
+.img11 {
+  top: 60%;
+  left: 58%;
+}
+.img12 {
+  top: 65%;
+  left: 13%;
+}
+.img13 {
+  top: 70%;
+  left: 37%;
+}
+.img14 {
+  top: 68%;
+  left: 77%;
+}
+.img15 {
+  top: 83%;
+  left: 7%;
+}
+.img16 {
+  top: 85%;
+  left: 27%;
+}
+.img17 {
+  top: 82%;
+  left: 50%;
+}
+.img18 {
+  top: 82%;
+  left: 68%;
+}
+.img19 {
+  top: 82%;
+  left: 88%;
+}

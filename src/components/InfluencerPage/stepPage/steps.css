@@ -1,0 +1,121 @@
+.influencerSteps {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 10% 8%;
+  overflow: hidden;
+}
+
+.stepOverContent {
+  width: 60%;
+  margin-block-end: 10%;
+}
+
+.stepOverContent h2 {
+  width: 100%;
+  margin-block-end: 2%;
+  font-size: 2.1rem;
+  font-weight: 600;
+}
+
+.stepOverContent p {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 1.15rem;
+  font-style: normal;
+  font-weight: 400;
+  padding-right: 10%;
+}
+
+/* STEPS  */
+.steps {
+  display: flex;
+  min-width: 60rem;
+  width: 100%;
+  margin-inline: auto;
+  margin-block-end: 5rem;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  > div {
+    margin-inline: 5%;
+  }
+}
+
+.step1 img,
+.step2 img,
+.step3 img,
+.step4 img {
+  position: absolute;
+  width: 8rem;
+}
+
+.step1 img {
+  left: -3rem;
+  bottom: -3rem;
+}
+.step2 img {
+  left: -3rem;
+  top: -3rem;
+}
+
+.step3 img {
+  left: -3rem;
+  bottom: -3rem;
+}
+
+.step4 img {
+  left: -3rem;
+  top: -3rem;
+}
+
+.stepContent {
+  width: 10rem;
+  position: relative;
+  height: 20rem;
+  flex-shrink: 0;
+  border-radius: 9.375rem;
+  background: #000;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20%;
+  padding: 5%;
+  text-align: center;
+  font-size: 1.1rem;
+  transition: all 0.5s ease;
+
+  &:hover {
+    scale: 1.1;
+  }
+}
+
+.stepContent button {
+  display: inline-flex;
+  padding: 10% 17%;
+  border: none;
+  font-size: 1.2rem;
+  outline: none;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 1.25rem;
+}
+
+.step1Content button {
+  background: #f1a51f;
+}
+.step2Content button {
+  background: #09a7c6;
+}
+.step3Content button {
+  background: #41d686;
+}
+.step4Content button {
+  background: #ff5121;
+}

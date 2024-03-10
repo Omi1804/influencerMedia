@@ -1,0 +1,171 @@
+.influencerPageHero {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background: #000;
+  color: white;
+  padding: 15% 10%;
+  z-index: -99;
+  overflow: hidden;
+}
+
+.influencerPageHeading h1 {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 5rem;
+  margin-block: 1%;
+  font-weight: 500;
+  z-index: 2;
+}
+
+.influencerPageHeading h2 {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 3rem;
+  font-weight: 600;
+  z-index: 2;
+}
+
+.influencerPageContent p {
+  width: 40%;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 1.2rem;
+  line-height: 140%;
+  letter-spacing: 1px;
+  margin-block: 4%;
+  font-style: normal;
+  text-align: justify;
+  font-weight: 400;
+  z-index: 2;
+}
+
+.influencerPageButtons {
+  display: flex;
+  gap: 7%;
+  margin-block: 7%;
+}
+
+.influencerPageButtons button {
+  background: transparent;
+  color: white;
+  padding: 1% 5%;
+  font-family: Montserrat;
+  font-size: 1.1rem;
+  font-weight: 500;
+  border: 1px solid white;
+  z-index: 2;
+}
+
+/* BALLS ANIMATION  */
+.balls {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+.ball1,
+.ball2,
+.ball3 {
+  background: linear-gradient(
+    50deg,
+    #0988cf 0%,
+    #f1a51f 4.76%,
+    #41d686 38.72%,
+    #09a7c6 57.77%,
+    rgba(255, 211, 62, 0.73) 98.19%,
+    #0986c7 100%
+  );
+}
+
+.ball1 {
+  width: 18.75rem;
+  height: 18.75rem;
+  flex-shrink: 0;
+  border-radius: 18.75rem;
+  position: absolute;
+  animation: bounceBall1 10s linear infinite;
+}
+
+@keyframes bounceBall1 {
+  0%,
+  100% {
+    top: 0%;
+    left: 30%;
+  }
+  30% {
+    top: 20%;
+    left: 80%;
+  }
+  60% {
+    top: 65%;
+    left: 50%;
+  }
+  80% {
+    top: 40%;
+    left: 0%;
+  }
+}
+
+.ball2 {
+  width: 8.875rem;
+  height: 8.875rem;
+  flex-shrink: 0;
+  border-radius: 8.875rem;
+  position: absolute;
+  animation: bounceBall2 5s linear infinite;
+}
+
+@keyframes bounceBall2 {
+  0%,
+  100% {
+    top: 82%;
+    left: 10%;
+  }
+  30% {
+    top: 40%;
+    left: 90%;
+  }
+  60% {
+    top: 0%;
+    left: 50%;
+  }
+  80% {
+    top: 30%;
+    left: 0%;
+  }
+}
+
+.ball3 {
+  width: 8.875rem;
+  height: 8.875rem;
+  flex-shrink: 0;
+  position: absolute;
+  border-radius: 8.875rem;
+  animation: bounceBall3 7s linear infinite;
+}
+
+@keyframes bounceBall3 {
+  0%,
+  100% {
+    top: 10%;
+    left: 0%;
+  }
+  30% {
+    top: 60%;
+    left: 90%;
+  }
+  60% {
+    top: 82%;
+    left: 50%;
+  }
+  80% {
+    top: 30%;
+    left: 0%;
+  }
+}

@@ -1,0 +1,144 @@
+/* form.css */
+
+.formPage {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 2.5fr;
+  width: 100%;
+  height: 100vh;
+}
+
+.formImage {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.formImage img {
+  max-height: 100vh;
+  height: 100%;
+  width: 100%;
+}
+
+.formContent {
+  padding: 8% 5%;
+  font-family: Montserrat;
+
+  > h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 1.1px;
+  }
+
+  > h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    letter-spacing: 1.1px;
+  }
+}
+
+.formData {
+  margin: 5% 0;
+}
+
+.formData label {
+  margin-right: 7%;
+  font-weight: 450;
+  font-size: 1.2rem;
+}
+
+.formData input,
+.formData select,
+.formData textarea {
+  padding: 0.7rem;
+  margin-bottom: 1em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  display: inline;
+  font-size: 0.8rem;
+}
+
+.nameField,
+.websiteField {
+  width: 85%;
+}
+
+.organisationField {
+  width: 71%;
+}
+
+.emailField {
+  width: 82.5%;
+}
+
+.contactField {
+  width: 30%;
+  margin-right: 6%;
+}
+
+.genderField {
+  width: 23%;
+}
+
+.websiteField {
+  width: 82.3%;
+}
+
+.servicesField {
+  width: 82%;
+}
+.budgetField {
+  width: 83%;
+}
+.messageField {
+  width: 82%;
+  border: 0.1px solid grey;
+  padding: 1%;
+}
+
+.messageLabel {
+  position: relative;
+  top: -7rem;
+}
+
+.formButtons {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 5%;
+  margin-block: 2%;
+}
+
+.formLinks,
+.formBack,
+.formSubmit {
+  background-color: black;
+  padding: 2% 5%;
+  color: white;
+  border-radius: 1.25rem;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+}
+
+/* SUBMITTED FORM  */
+
+.submittedForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2%;
+  padding: 10%;
+}
+
+.formline {
+  width: 70%;
+  height: 1px;
+  background: #000;
+}

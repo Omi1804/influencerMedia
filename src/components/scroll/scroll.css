@@ -1,0 +1,55 @@
+.scrollSec {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.innerCont {
+  width: 100%;
+  height: 25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background: linear-gradient(
+    50deg,
+    #0988cf 0%,
+    #f1a51f 4.76%,
+    #41d686 38.72%,
+    #09a7c6 57.77%,
+    rgba(255, 211, 62, 0.73) 98.19%,
+    #0986c7 100%
+  );
+  animation: bouncing 3s infinite cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+
+@keyframes bouncing {
+  0%,
+  66.67% {
+    width: 100%;
+    font-size: 4.7rem;
+    box-shadow: 0 0 0 transparent;
+    color: white;
+  }
+  33.34% {
+    width: 40%;
+    font-size: 0.5rem;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+    color: #f1a51f;
+  }
+  100% {
+    width: 100%;
+    font-size: 4.7rem;
+    box-shadow: 0 0 0 transparent;
+    color: white;
+  }
+}
+
+.scrollSec .innerCont > h1 {
+  font-weight: 500;
+  transition: color 0.3s;
+  text-shadow: #fff 0px 0px 2px;
+}

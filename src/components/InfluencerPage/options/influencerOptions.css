@@ -1,0 +1,139 @@
+.influencerOption {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5%;
+}
+
+.influencerOption1,
+.influencerOption2,
+.influencerOption3,
+.influencerOption4 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.influencerOption1 {
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.influencerOption2 {
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.influencerOption3 {
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.influencerOption4 {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.influencerOption1 > div {
+  border-radius: 6.25rem 6.25rem 0rem 6.25rem;
+  background: #000;
+  color: white;
+  width: 17rem;
+  height: 17rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10%;
+  text-align: center;
+  padding: 10%;
+  transition: all 0.3s ease;
+
+  > p {
+    font-size: 1.7rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+  }
+
+  &:hover {
+    background: #007be5;
+  }
+}
+.influencerOption2 > div {
+  border-radius: 6.25rem 6.25rem 6.25rem 0rem;
+  background: #000;
+  color: white;
+  width: 17rem;
+  height: 17rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10%;
+  text-align: center;
+  padding: 10%;
+  transition: all 0.3s ease;
+
+  > p {
+    font-size: 1.7rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+  }
+  &:hover {
+    background: #14ae5c;
+  }
+}
+.influencerOption3 > div {
+  border-radius: 6.25rem 0rem 6.25rem 6.25rem;
+  background: #000;
+  color: white;
+  width: 17rem;
+  height: 17rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10%;
+  text-align: center;
+  padding: 10%;
+  transition: all 0.3s ease;
+
+  > p {
+    font-size: 1.7rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+  }
+  &:hover {
+    background: #f1a61e;
+  }
+}
+.influencerOption4 > div {
+  border-radius: 0rem 6.25rem 6.25rem 6.25rem;
+  background: #000;
+  color: white;
+  width: 17rem;
+  height: 17rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10%;
+  text-align: center;
+  padding: 10%;
+  transition: all 0.3s ease;
+
+  > p {
+    font-size: 1.7rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+  }
+  &:hover {
+    background: #f24822;
+  }
+}
+
+.influencerContent > div > img {
+  max-width: 5.5rem;
+  width: 100%;
+  height: 100%;
+  max-height: 5.5rem;
+}
